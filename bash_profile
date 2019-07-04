@@ -7,13 +7,13 @@ fi
 
 source ~/.profile
 alias ..='cd ..'
+alias atom='open -a atom'
+alias bi='brew install'
 alias ga='git add'
 alias gbo='git branch --sort=-committerdate'
+alias gi='gem install'
 alias gp='git pull'
 alias gr='git rebase'
-alias gi='gem install'
-alias bi='brew install'
-alias atom='open -a atom'
 alias gs='git status'
 alias ls='ls -G'
 
