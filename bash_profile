@@ -1,5 +1,7 @@
 export PS1="\[\033[0;32m\]\@ \W/\$(parse_git_branch) $ \[\033[0m\]"
 
+export LSCOLORS=gxfxcxdxbxegedabagacad
+
 if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
 fi
